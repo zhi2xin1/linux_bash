@@ -16,7 +16,7 @@ do
     echo "输入错误"
     echo "选择压缩模式"
     echo "tar 仅使用tar打包，无压缩"
-    echo "xz 使用tar打包并使用xz压缩"
+    echo "xz 使用tar打包并使用xz进行多线程压缩"
     echo "zip 使用zip打包并压缩"
     echo "q 退出"
     read -p "请输入你的选择: " compress
